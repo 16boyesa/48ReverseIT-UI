@@ -6,6 +6,6 @@ namespace _48ReverseIT_UI {
             InitializeComponent(); }
 
 
-        private void tbxInput_TextChanged(object sender, EventArgs e) {
-            for (int i = text.Length - 1; i >= 0; i--) {
-             } } } }
+        private void tbxInput_TextChanged(object sender, EventArgs e) { tbxOutput.Text = "";
+            for (int i = tbxInput.Text.Length - 1; i >= 0; i--) {
+                tbxOutput.Text += tbxInput.Text.Substring(i, 1); } } } }
