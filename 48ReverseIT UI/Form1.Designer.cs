@@ -36,6 +36,7 @@
             // 
             // tbxInput
             // 
+            this.tbxInput.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.tbxInput.Location = new System.Drawing.Point(12, 12);
             this.tbxInput.Name = "tbxInput";
             this.tbxInput.Size = new System.Drawing.Size(129, 20);
@@ -45,17 +46,18 @@
             // 
             // tbxOutput
             // 
+            this.tbxOutput.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.tbxOutput.Location = new System.Drawing.Point(12, 38);
             this.tbxOutput.Name = "tbxOutput";
             this.tbxOutput.ReadOnly = true;
-            this.tbxOutput.Size = new System.Drawing.Size(110, 20);
+            this.tbxOutput.Size = new System.Drawing.Size(129, 20);
             this.tbxOutput.TabIndex = 1;
             this.tbxOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lblPali
             // 
             this.lblPali.AutoSize = true;
-            this.lblPali.Location = new System.Drawing.Point(19, 70);
+            this.lblPali.Location = new System.Drawing.Point(23, 70);
             this.lblPali.Name = "lblPali";
             this.lblPali.Size = new System.Drawing.Size(62, 13);
             this.lblPali.TabIndex = 2;
@@ -64,7 +66,7 @@
             // lblPaliOut
             // 
             this.lblPaliOut.AutoSize = true;
-            this.lblPaliOut.Location = new System.Drawing.Point(87, 70);
+            this.lblPaliOut.Location = new System.Drawing.Point(100, 70);
             this.lblPaliOut.Name = "lblPaliOut";
             this.lblPaliOut.Size = new System.Drawing.Size(32, 13);
             this.lblPaliOut.TabIndex = 3;
@@ -74,13 +76,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(153, 151);
+            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.ClientSize = new System.Drawing.Size(153, 93);
             this.Controls.Add(this.lblPaliOut);
             this.Controls.Add(this.lblPali);
             this.Controls.Add(this.tbxOutput);
             this.Controls.Add(this.tbxInput);
-            this.MaximumSize = new System.Drawing.Size(169, 307);
-            this.MinimumSize = new System.Drawing.Size(169, 0);
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MaximumSize = new System.Drawing.Size(169, 132);
+            this.MinimumSize = new System.Drawing.Size(169, 132);
             this.Name = "FrmReverse";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "48 - Reverse IT";
